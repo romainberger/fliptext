@@ -1,10 +1,10 @@
 
 Gem::Specification.new do |s|
   s.name        = 'flipit'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.date        = '2013-06-20'
   s.summary     = "Flip It!"
-  s.description = "A stupid gem to flip text"
+  s.description = "sʇndıp bǝɯ ʇo ɟןıd ʇǝxʇ"
   s.authors     = ["Romain Berger"]
   s.email       = 'romain@romainberger.com'
   s.files       = ["lib/flipit.rb"]
