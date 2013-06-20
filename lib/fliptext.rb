@@ -1,6 +1,6 @@
 # encoding: UTF-8
 
-class FlipIt
+class FlipText
 
     VERSION = '0.1.0'
 

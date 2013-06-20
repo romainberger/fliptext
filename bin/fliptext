@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 $:.unshift File.join(File.dirname(__FILE__), *%w[.. lib])
-require 'flipit'
+require 'fliptext'
 
-FlipIt.flip(ARGV.join(' '))
+FlipText.flip(ARGV.join(' '))
