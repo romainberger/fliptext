@@ -2,17 +2,17 @@
 
 Very useful gem to flip text. Output in your shell and copy to clipoard so you can write reversed commit messages and whatnot.
 
-## ıusʇɐןןɐʇıou
-
-````
-    $ gem install fliptext
-```
-
 ## nsɐbǝ
 
 ````
     $ fliptext Hello world
-    $ ɥǝןןo ʍoɹןp
+    ɥǝןןo ʍoɹןp
+```
+
+## ıusʇɐןןɐʇıou
+
+````
+    $ gem install fliptext
 ```
 
 ## ʍɥʎ pıp ʎon po ʇɥɐʇ?
