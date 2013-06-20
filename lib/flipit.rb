@@ -60,19 +60,11 @@ class FlipIt
 
     # Flip a text
     def self.flip(text)
-        text.gsub(/[a-z0-9]/i, CONVERT_MAP)
-    end
+        flipped = text.gsub(/[a-z0-9]/i, CONVERT_MAP)
 
-    # Copies the text to clipboard
-    def self.copy(text)
-        copycmd = case RUBY_PLATFORM
-        when /darwin/
-            'pbcopy'
-        when /linux/
-            'xclip'
-        end
-
-        copycmd && `printf "#{text}" | #{copycmd}`
+        `printf "#{flipped}" | pbcopy` if RUBY_PLATFORM =~ /darwin/
+        `printf "#{flipped}" | xclip`  if RUBY_PLATFORM =~ /linux/
+        puts flipped
     end
 
 end
